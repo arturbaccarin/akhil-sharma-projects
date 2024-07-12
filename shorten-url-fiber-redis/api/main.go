@@ -4,6 +4,7 @@ import (
 	"log"
 	"os"
 
+	"github.com/arturbaccarin/akhil-sharma-projects/shorten-url-fiber-redis/routes"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/joho/godotenv"
@@ -28,3 +29,6 @@ func main() {
 
 	log.Fatal(app.Listen(os.Getenv("APP_PORT")))
 }
+
+// https://youtu.be/3ExDEeSnyvE?list=PL5dTjWUk_cPbXTq9j-3Vaq08rjH1D5cTn
+// 47:00
